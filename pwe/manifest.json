@@ -1,0 +1,48 @@
+{
+"name": "John Plate",
+"short_name": "John Plate - Beljey Al'bom",
+"start_url": "./index.html",
+"display": "standalone",
+"description": "Beljey Al'bom от John Plate",
+"lang": "ru-ru",
+"dir": "auto",
+"theme_color": "#000000",
+"background_color": "#000000",
+"orientation": "portrait",
+"icons": [
+    {
+        "src": "./img/icon.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+    },
+    {
+        "src": "./img/icon.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+    }
+],
+"screenshots": [
+    {
+        "src": "./img/icon.png",
+        "sizes": "2880x1800",
+        "type": "image/png",
+        "description": "./img/icon.png"
+    }
+],
+"related_applications": [
+    {
+        "platform":"windows",
+        "url": "./"
+    }
+],
+"prefer_related_applications": false,
+"shortcuts": [
+    {
+        "name":"John Plate - Beljey Al'bom",
+        "url":"./index.html",
+        "description":"Beljey Al'bom от John Plate"
+    }
+]
+}

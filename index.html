@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="stylesheet" href="./cssa.css" />
+    <script defer src="./jsa.js"></script>
+    <title>John Plate</title>
+  </head>
+  <body>
+    <div class="album" id="album">
+      <div class="cover" id="cover">
+        <div class="front" id="open">
+          <img src="./img/jp.png" alt="" class="signa" />
+        </div>
+
+        <div class="back">
+          <div class="player">
+            <div class="vinil">
+              <!-- <img src="./img/vinil.svg" class="trackCover" alt="" /> -->
+              <h2 class="trackName" id="trackName">Territory</h2>
+            </div>
+            <audio src="./media/Elysium.mp3" id="audio"></audio>
+            <div class="buttons">
+              <button class="btn previous" id="previous">
+                <img src="./img/previous.svg" alt="" />
+              </button>
+              <button class="btn play" id="play">
+                <img class="playpause" src="./img/play.svg" alt="" />
+              </button>
+              <button class="btn next" id="next">
+                <img src="./img/next.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="trackList">
+        <svg
+          id="close"
+          class="close"
+          xmlns="http://www.w3.org/2000/svg"
+          height="36px"
+          viewBox="0 0 24 24"
+          width="36px"
+          fill="#FFFFFF"
+        >
+          <path d="M0 0h24v24H0V0z" fill="none" />
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
+          />
+        </svg>
+        <div class="list" id="songList">
+          <div class="track">
+            <div class="number">1</div>
+            <div class="name">Elysium</div>
+            <div class="time">3:34</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="https://yoomoney.ru/to/4100117067939386" class="donat"
+      >Поддержать автора</a
+    >
+  </body>
+</html>
